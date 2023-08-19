@@ -1,8 +1,6 @@
 import time
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-
 from selenium.webdriver.common.keys import Keys
 
 def search():
@@ -47,5 +45,5 @@ def listing():
     print("Test is successful ")
     time.sleep(2)
     exit()
-search()
+#search()
 #listing()
