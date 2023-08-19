@@ -40,7 +40,6 @@ def listing():
     words = sentence.split(" ")
     listed_flights = words[1]
 
-    # If mi assert mi
     assert listed_flights != flights_count
     print("Test is successful ")
     time.sleep(2)
